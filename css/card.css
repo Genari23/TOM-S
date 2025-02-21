@@ -1,0 +1,59 @@
+.card{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+
+    @media(max-width:550px){
+        flex-direction: column;
+    }
+}
+
+.card-top{
+    box-shadow: 5px 5px 1px black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 3px solid black;
+
+    @media(max-width:550px){
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+.card-bottom{
+    background-color: var(--cor-laranja-claro);
+    box-shadow: 5px 5px 1px black;
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 3px solid black;
+
+    @media(max-width:550px){
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+.paragrafo-card{
+    font-size: 1rem;
+}
+
+.card-img{
+    align-self: flex-start;
+}
+
+.card-seta{
+    align-self: flex-end;
+}

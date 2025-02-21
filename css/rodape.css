@@ -1,0 +1,31 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding: 2rem;
+
+    @media(max-width:550px){
+        flex-direction: column;
+    }
+}
+
+.rodape-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.rodape-texto{
+    font-weight: bold;
+
+    @media(max-width:550px){
+        margin-top: 1rem;
+    }
+}
+
+.input-rodape{
+    padding: 0.60rem;
+    box-shadow: 2px 2px 1px black;
+
+}
